@@ -73,12 +73,6 @@ variable "vpc_security_group_ids" {
   default     = null
 }
 
-variable "subnet_id" {
-  description = "The VPC Subnet ID to launch in"
-  type        = string
-  default     = ""
-}
-
 variable "subnet_ids" {
   description = "A list of VPC Subnet IDs to launch in"
   type        = list(string)
