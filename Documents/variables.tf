@@ -3,12 +3,6 @@ variable "name" {
   type        = string
 }
 
-
-variable "ami" {
-  description = "ID of AMI to use for the instance"
-  type        = string
-}
-
 variable "placement_group" {
   description = "The Placement Group to start the instance in"
   type        = string
