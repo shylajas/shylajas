@@ -1,7 +1,7 @@
 {
     "cluster": "shylaja-cluster",
     "serviceName": "service2",
-    "taskDefinition": "AWS:1",
+    "taskDefinition": "shylaja-definition:1",
 
     "serviceRegistries": [
         {
